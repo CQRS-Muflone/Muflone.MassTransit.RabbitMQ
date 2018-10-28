@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>0.9</Version>
+    <Version>0.9.0</Version>
     <Authors>Alessandro Colla</Authors>
     <Company>CQRS-Muflone</Company>
     <Description>Mass transit service bus for RabbitMQ and wrappers for Muflone's CommandHandlers and EventHandlers</Description>
@@ -22,7 +22,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
-    <PackageReference Include="Muflone" Version="0.8.1.1" />
+    <PackageReference Include="Muflone" Version="0.9.0" />
   </ItemGroup>
 
 </Project>
