@@ -3,7 +3,7 @@ Muflone repository and event dispatcher for [Event Store](https://eventstore.org
  
 ### Usage ###
 
-In application's startup call:
+In your application's startup call:
 
 ```csharp
 services.AddMufloneMassTransitWithRabbitMQ(serviceBusOptions, x =>
