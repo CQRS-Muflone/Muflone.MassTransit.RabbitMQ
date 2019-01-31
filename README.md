@@ -15,3 +15,6 @@ services.AddMufloneMassTransitWithRabbitMQ(serviceBusOptions, x =>
   x.AddConsumer<MySecondEventConsumer>();
 });
 ```
+
+### Sample ###
+Look at [this repo](https://github.com/Iridio/CQRS-ES_testing_workshop), while we prepare a more specific one
