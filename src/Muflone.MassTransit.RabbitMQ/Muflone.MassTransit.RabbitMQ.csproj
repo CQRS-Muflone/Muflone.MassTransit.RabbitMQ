@@ -4,25 +4,26 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>0.9.0</Version>
+    <Version>0.9.1</Version>
     <Authors>Alessandro Colla</Authors>
     <Company>CQRS-Muflone</Company>
     <Description>Mass transit service bus for RabbitMQ and wrappers for Muflone's CommandHandlers and EventHandlers</Description>
-    <PackageLicenseUrl>https://github.com/CQRS-Muflone/Muflone.MassTransit.RabbitMQ/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <Copyright>Alessandro Colla and contributors</Copyright>
     <PackageProjectUrl>https://github.com/CQRS-Muflone/Muflone.MassTransit.RabbitMQ</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CQRS-Muflone/Muflone.MassTransit.RabbitMQ</RepositoryUrl>
     <PackageTags>Muflone, MassTransit, RabbitMQ, ServiceBus</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.1.5" />
-    <PackageReference Include="MassTransit.RabbitMQ" Version="5.1.5" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
-    <PackageReference Include="Muflone" Version="0.9.0" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.5.2" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="5.5.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Muflone" Version="0.9.1" />
   </ItemGroup>
 
 </Project>
