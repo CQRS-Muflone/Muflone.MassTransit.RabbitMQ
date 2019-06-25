@@ -5,7 +5,7 @@ using MassTransit.ExtensionsDependencyInjectionIntegration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Muflone.MassTransit.RabbitMQ.Dependecies
+namespace Muflone.MassTransit.RabbitMQ
 {
   public static class MassTransitHelpers
   {
