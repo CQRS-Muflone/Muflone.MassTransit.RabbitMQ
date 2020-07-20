@@ -1,0 +1,6 @@
+[submodule "src/Muflone.Saga"]
+	path = src/Muflone.Saga
+	url = ../Muflone.Saga.git
+[submodule "src/Muflone"]
+	path = src/Muflone
+	url = ../Muflone.git
