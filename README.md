@@ -17,4 +17,4 @@ services.AddMufloneMassTransitWithRabbitMQ(serviceBusOptions, x =>
 ```
 
 ### Sample ###
-Look at [this repo](https://github.com/Iridio/CQRS-ES_testing_workshop), while we prepare a more specific one
+Look at [this repo](https://github.com/CQRS-Muflone/CQRS-ES_testing_workshop)
