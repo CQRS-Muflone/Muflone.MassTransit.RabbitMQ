@@ -4,26 +4,37 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>0.9.3</Version>
-    <Authors>Alessandro Colla</Authors>
+    <Version>1.0.0</Version>
+    <Authors>Alessandro Colla, Alberto Acerbis</Authors>
     <Company>CQRS-Muflone</Company>
     <Description>Mass transit service bus for RabbitMQ and wrappers for Muflone's CommandHandlers and EventHandlers</Description>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <Copyright>Alessandro Colla and contributors</Copyright>
+    <Copyright>Alessandro Colla, Alberto Acerbis and contributors</Copyright>
     <PackageProjectUrl>https://github.com/CQRS-Muflone/Muflone.MassTransit.RabbitMQ</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CQRS-Muflone/Muflone.MassTransit.RabbitMQ</RepositoryUrl>
     <PackageTags>Muflone, MassTransit, RabbitMQ, ServiceBus</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Logo.png</PackageIcon>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.5.4" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="5.5.4" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
-    <PackageReference Include="Muflone" Version="0.9.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.6" />
+    <PackageReference Include="Muflone" Version="1.0.1" />
+    <PackageReference Include="Muflone.Saga" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
