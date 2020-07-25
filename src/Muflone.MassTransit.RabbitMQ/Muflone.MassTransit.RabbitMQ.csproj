@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Alessandro Colla, Alberto Acerbis</Authors>
     <Company>CQRS-Muflone</Company>
     <Description>Mass transit service bus for RabbitMQ and wrappers for Muflone's CommandHandlers and EventHandlers</Description>
@@ -16,8 +16,8 @@
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>Logo.png</PackageIcon>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +27,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.6" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.6" />
     <PackageReference Include="Muflone" Version="1.0.1" />
-    <PackageReference Include="Muflone.Saga" Version="1.0.1" />
+    <PackageReference Include="Muflone.Saga" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
